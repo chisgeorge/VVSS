@@ -101,22 +101,22 @@ public class RepositoryContactFileTest {
                 break;
             }
     }
-    @Test
-    public void addContact_TC8_BVA() {
-        try {
-            con = new Contact("nume1", null, "0123456789");
-        } catch (InvalidFormatException e) {
-            fail();
-        }
-
-        repositoryContact.addContact(con);
-        for(Contact c : repositoryContact.getContacts())
-            if (c.equals(con))
-            {
-                assertTrue(true);
-                break;
-            }
-    }
+//    @Test
+//    public void addContact_TC8_BVA() {
+//        try {
+//            con = new Contact("nume1", null, "0123456789");
+//        } catch (InvalidFormatException e) {
+//            fail();
+//        }
+//
+//        repositoryContact.addContact(con);
+//        for(Contact c : repositoryContact.getContacts())
+//            if (c.equals(con))
+//            {
+//                assertTrue(true);
+//                break;
+//            }
+//    }
 
     @Test
     public void addContact_TC9_BVA() {
