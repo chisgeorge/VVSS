@@ -60,6 +60,7 @@ public class RepositoryContactFileTest {
             con = new Contact("nume1", "", "0123456789");
             fail();
         } catch (InvalidFormatException e) {
+            assertTrue(e.getMessage().equals("Invalid adress"));
             assertTrue(true);
         }
          

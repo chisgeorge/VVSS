@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb72b01-6529-4e48-9ec7-a6ea871fe14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab02/.idea/lab02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/agenda/repository/classes/RepositoryActivityFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/src/main/java/agenda/repository/classes/RepositoryActivityFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/src/main/java/agenda/repository/classes/RepositoryActivityFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/src/main/java/agenda/repository/classes/RepositoryContactFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/src/main/java/agenda/repository/classes/RepositoryContactFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/src/main/java/agenda/repository/classes/RepositoryUserFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/src/main/java/agenda/repository/classes/RepositoryUserFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab02/src/main/java/agenda/model/base/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/src/main/java/agenda/model/base/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab02/src/test/java/agenda/repository/classes/RepositoryContactFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/src/test/java/agenda/repository/classes/RepositoryContactFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/target/classes/agenda/repository/classes/RepositoryActivityFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/target/classes/agenda/repository/classes/RepositoryActivityFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/target/classes/agenda/repository/classes/RepositoryContactFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/target/classes/agenda/repository/classes/RepositoryContactFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/target/classes/agenda/repository/classes/RepositoryUserFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/target/classes/agenda/repository/classes/RepositoryUserFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,26 +29,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/agenda/repository/classes/RepositoryContactFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-488">
+            <state relative-caret-position="90">
               <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/AddContactTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/agenda/repository/classes/RepositoryActivityFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/bigBang.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agenda/repository/classes/RepositoryActivityFile.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/topDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="2910">
+              <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/activities.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -65,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/agenda/repository/classes/RepositoryActivityFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="720">
+              <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -76,15 +88,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2160">
               <caret line="155" column="28" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -122,6 +125,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -161,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/test/java/test/AddActivityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/repository/classes/RepositoryActivityFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/agenda/repository/classes/RepositoryActivityFileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/bigBang.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/topDown.java" />
       </list>
     </option>
   </component>
@@ -195,6 +201,11 @@
             <path>
               <item name="lab03" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab03" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab03" type="b2602c69:ProjectViewProjectNode" />
@@ -408,10 +419,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainClass" />
-      <item itemvalue="JUnit.RepositoryContactFileTest" />
-      <item itemvalue="JUnit.RepositoryContactFileTest.addContact_TC2_ECP" />
       <item itemvalue="JUnit.AddActivityTest" />
       <item itemvalue="JUnit.RepositoryActivityFileTest" />
+      <item itemvalue="JUnit.RepositoryContactFileTest" />
+      <item itemvalue="JUnit.RepositoryContactFileTest.addContact_TC2_ECP" />
     </list>
     <recent_temporary>
       <list>
@@ -440,12 +451,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepositoryContactFileTest - 2019.04.16 at 11h 17m 56s.xml">
-      <configuration name="RepositoryContactFileTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepositoryContactFileTest - 2019.04.16 at 11h 18m 23s.xml">
-      <configuration name="RepositoryContactFileTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddActivityTest - 2019.04.16 at 16h 51m 38s.xml">
       <configuration name="AddActivityTest" configurationId="JUnit" />
     </history-entry>
@@ -470,6 +475,12 @@
     <history-entry file="RepositoryActivityFileTest - 2019.04.16 at 17h 33m 05s.xml">
       <configuration name="RepositoryActivityFileTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepositoryActivityFileTest - 2019.04.16 at 17h 38m 57s.xml">
+      <configuration name="RepositoryActivityFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryActivityFileTest - 2019.04.16 at 17h 38m 58s.xml">
+      <configuration name="RepositoryActivityFileTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="13859000" />
@@ -485,8 +496,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6195652" visible="true" weight="0.29321486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6195652" visible="true" weight="0.3029079" />
       <window_info id="Structure" order="1" sideWeight="0.5021739" side_tool="true" weight="0.28029078" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,16 +508,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7714055" weight="0.3620438" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.31678832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49919224" weight="0.329927" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4983845" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.31678832" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48303714" weight="0.40145984" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -516,6 +527,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32956383" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,12 +553,6 @@
           <line>51</line>
           <properties />
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/agenda/repository/classes/RepositoryActivityFileTest.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -577,16 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/activities.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/contacts.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -645,6 +641,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/AddContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/contacts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/activities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/AddActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="155" column="28" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -666,47 +699,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/AddContactTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/AddActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="155" column="28" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agenda/repository/classes/RepositoryContactFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
+        <state relative-caret-position="90">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/agenda/repository/classes/RepositoryActivityFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="720">
+          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agenda/repository/classes/RepositoryActivityFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="391">
+          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/bigBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/topDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

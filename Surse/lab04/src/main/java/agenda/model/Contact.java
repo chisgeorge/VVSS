@@ -1,4 +1,4 @@
-package agenda.model.base;
+package agenda.model;
 
 import agenda.exceptions.InvalidFormatException;
 
@@ -6,20 +6,23 @@ public class Contact {
 	private String Name;
 	private String Address;
 	private String Telefon;
+	private String Email;
 	
 	public Contact(){
 		Name = "";
 		Address = "";
 		Telefon = "";
+		Email = "";
 	}
 	
-	public Contact(String name, String address, String telefon) throws InvalidFormatException{
+	public Contact(String name, String address, String telefon,String email) throws InvalidFormatException{
 		if (!validTelefon(telefon)) throw new InvalidFormatException("Cannot convert", "Invalid phone number");
 		if (!validName(name)) throw new InvalidFormatException("Cannot convert", "Invalid name");
 		if (!validAddress(address)) throw new InvalidFormatException("Cannot convert", "Invalid address");
 		Name = name;
 		Address = address;
 		Telefon = telefon;
+		Email = email;
 	}
 
 	public String getName() {
@@ -54,10 +57,10 @@ public class Contact {
 		String[] s = str.split(delim);
 		if (s.length!=4) throw new InvalidFormatException("Cannot convert", "Invalid data");
 		if (!validTelefon(s[2])) throw new InvalidFormatException("Cannot convert", "Invalid phone number");
-			if (!validName(s[0])) throw new InvalidFormatException("Cannot convert", "Invalid name");
+		if (!validName(s[0])) throw new InvalidFormatException("Cannot convert", "Invalid name");
 		if (!validAddress(s[1])) throw new InvalidFormatException("Cannot convert", "Invalid address");
 		
-		return new Contact(s[0], s[1], s[2]);
+		return new Contact(s[0], s[1], s[2],s[3]);
 	}
 	
 	@Override
@@ -77,13 +80,11 @@ public class Contact {
 		
 		String[] s = str.split("[\\p{Punct}\\s]+");
 		if (s.length>2) return false;
-		if (str.isEmpty()) return false;
 		return true;
 	}
 	
 	private static boolean validAddress(String str)
 	{
-		if (str.isEmpty()) return false;
 		return true;
 	}
 	
