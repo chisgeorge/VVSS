@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb72b01-6529-4e48-9ec7-a6ea871fe14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/agenda/startApp/MainClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/agenda/startApp/MainClassTest_BigBang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/agenda/startApp/MainClassTest_TopDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/agenda/startApp/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/startApp/MainClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="ddb72b01-6529-4e48-9ec7-a6ea871fe14f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -281,7 +277,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,7 +487,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6195652" visible="true" weight="0.31744748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6195652" visible="true" weight="0.32229403" />
       <window_info id="Structure" order="1" sideWeight="0.5021739" side_tool="true" weight="0.28029078" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
