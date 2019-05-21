@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    function callBackend() {
+      var url = 'https://vvss-mock.free.beeceptor.com/contact?name=' + document.getElementById("name").value + '&adress=' + document.getElementById("adress").value + '&telephone=' + document.getElementById("telephone").value + '&email=' + document.getElementById("email").value
+      fetch(url)
+  .then(response => response.json())
+  .then(json =>  document.getElementById("response").innerText = json.status)
+    }
+  </script>
+</head>
+
+<body>
+
+  <h2>Adaugare contact</h2>
+
+    Nume:<br>
+    <input id="name" type="text" name="name">
+    <br>
+    Addresa:<br>
+    <input id="adress" type="text" name="adress">
+    <br>
+    Telefon:<br>
+    <input id="telephone" type="text" name="telephone">
+    <br>
+    Email:<br>
+    <input id="email" type="text" name="email">
+    <br><br>
+    <input id="add" type="button" onclick="callBackend()" value="Add">
+
+    <h3 id="response"></h3>
+</body>
+
+</html>
