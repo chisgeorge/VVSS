@@ -83,7 +83,7 @@ public class MainClass {
 		System.out.println("Program over and out\n");
 	}
 
-	private static void afisActivitate(ServiceActivity activityService,
+	public static void afisActivitate(ServiceActivity activityService,
 			BufferedReader in, User user) {
 		try {
 			System.out.printf("Afisare Activitate: \n");
@@ -100,9 +100,9 @@ public class MainClass {
 			List<Activity> act = activityService
 					.getActivities(user.getName(), d);
 			for (Activity a : act) {
-				System.out.printf("%s - %s: %s - %s with: ", a.getStart()
-						.toString(), a.getDuration().toString(), a
-						.getDescription());
+				System.out.printf("%s %s: %s - %s, with: ", a.getName(), a
+						.getDescription(),  a.getStart()
+						.toString(), a.getDuration().toString());
 				for (Contact con : a.getContacts())
 					System.out.printf("%s, ", con.getName());
 				System.out.println();
